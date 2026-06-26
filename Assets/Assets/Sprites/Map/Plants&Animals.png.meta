@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: ce47b706249c3cf4998031dcb86f9610
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8529299433714730560
+    second: Plants&Animals_0
+  - first:
+      213: 8686404749966820788
+    second: Plants&Animals_1
+  - first:
+      213: -1590493548501310186
+    second: Plants&Animals_2
+  - first:
+      213: 6853135089386229060
+    second: Plants&Animals_3
+  - first:
+      213: 5173282760296306793
+    second: Plants&Animals_4
+  - first:
+      213: 6441700294611042826
+    second: Plants&Animals_5
+  - first:
+      213: -4201154302667082947
+    second: Plants&Animals_6
+  - first:
+      213: -8595113863131094404
+    second: Plants&Animals_7
+  - first:
+      213: -8565672946545251578
+    second: Plants&Animals_8
+  - first:
+      213: -6238569210803892516
+    second: Plants&Animals_9
+  - first:
+      213: 6838042741964630552
+    second: Plants&Animals_10
+  - first:
+      213: -161440906036486887
+    second: Plants&Animals_11
+  - first:
+      213: 8913567681679338661
+    second: Plants&Animals_12
+  - first:
+      213: -5788972542234564265
+    second: Plants&Animals_13
+  - first:
+      213: 1311533298176727582
+    second: Plants&Animals_14
+  - first:
+      213: 350529927199411059
+    second: Plants&Animals_15
+  - first:
+      213: -4406426296554480886
+    second: Plants&Animals_16
+  - first:
+      213: 3594651961639915643
+    second: Plants&Animals_17
+  - first:
+      213: 5118172361099000371
+    second: Plants&Animals_18
+  - first:
+      213: -6977908210969024678
+    second: Plants&Animals_19
+  - first:
+      213: -4006841686152827713
+    second: Plants&Animals_20
+  - first:
+      213: 549601551487469350
+    second: Plants&Animals_21
+  - first:
+      213: -4148100381642508699
+    second: Plants&Animals_22
+  - first:
+      213: 3390104626489729878
+    second: Plants&Animals_23
+  - first:
+      213: 5188906125505945904
+    second: Plants&Animals_24
+  - first:
+      213: 1653709351188619456
+    second: Plants&Animals_25
+  - first:
+      213: 7224948049693901544
+    second: Plants&Animals_26
+  - first:
+      213: -34017595335349275
+    second: Plants&Animals_27
+  - first:
+      213: -3818967221525301640
+    second: Plants&Animals_28
+  - first:
+      213: 809521960876328880
+    second: Plants&Animals_29
+  - first:
+      213: 4374374556970269748
+    second: Plants&Animals_30
+  - first:
+      213: 4440780683589444954
+    second: Plants&Animals_31
+  - first:
+      213: -7811281318335657759
+    second: Plants&Animals_32
+  - first:
+      213: 2219640202194319147
+    second: Plants&Animals_33
+  - first:
+      213: 8792571839316167066
+    second: Plants&Animals_34
+  - first:
+      213: -5150729226782676322
+    second: Plants&Animals_35
+  - first:
+      213: -144156640562595464
+    second: Plants&Animals_36
+  - first:
+      213: 1774698868812843741
+    second: Plants&Animals_37
+  - first:
+      213: -2548345507480889849
+    second: Plants&Animals_38
+  - first:
+      213: -5824347152937918050
+    second: Plants&Animals_39
+  - first:
+      213: -1516687273748274078
+    second: Plants&Animals_40
+  - first:
+      213: 2799090836775926911
+    second: Plants&Animals_41
+  - first:
+      213: -386253178239584787
+    second: Plants&Animals_42
+  - first:
+      213: 268509240896041410
+    second: Plants&Animals_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plants&Animals_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 249
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c93e7eea57d1a980800000000000000
+      internalID: -8529299433714730560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 695
+        width: 164
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5c909f81f4c8870800000000000000
+      internalID: 8686404749966820788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 694
+        width: 150
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61567006b8e6de9e0800000000000000
+      internalID: -1590493548501310186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_3
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 694
+        width: 165
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d81a8ed0a3b1f50800000000000000
+      internalID: 6853135089386229060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_4
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 693
+        width: 166
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9681d12e2413bc740800000000000000
+      internalID: 5173282760296306793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_5
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 706
+        width: 155
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0202d1d944856950800000000000000
+      internalID: 6441700294611042826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 692
+        width: 127
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33bcee9b6082b5c0800000000000000
+      internalID: -4201154302667082947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_7
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 697
+        width: 113
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c722908fa7508b880800000000000000
+      internalID: -8595113863131094404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_8
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 623
+        width: 222
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b2ff686dd902980800000000000000
+      internalID: -8565672946545251578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 537
+        width: 123
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde485b2b562c69a0800000000000000
+      internalID: -6238569210803892516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 534
+        width: 142
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a6db1f4ab95ee50800000000000000
+      internalID: 6838042741964630552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_11
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 534
+        width: 145
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d5a7fe95272cdf0800000000000000
+      internalID: -161440906036486887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_12
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 534
+        width: 139
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac26e3949a53bb70800000000000000
+      internalID: 8913567681679338661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 536
+        width: 113
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7596e95e42079afa0800000000000000
+      internalID: -5788972542234564265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 542
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a9becf590833210800000000000000
+      internalID: 1311533298176727582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_15
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 535
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b4dd19c155dd400800000000000000
+      internalID: 350529927199411059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_16
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 543
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b1ee821aa39d2c0800000000000000
+      internalID: -4406426296554480886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_17
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 546
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7055b0f9e4c2e130800000000000000
+      internalID: 3594651961639915643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_18
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 546
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a378a25a6670740800000000000000
+      internalID: 5118172361099000371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 388
+        width: 175
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57e8e1e37d792f90800000000000000
+      internalID: -6977908210969024678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 394
+        width: 113
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc22a137b6d468c0800000000000000
+      internalID: -4006841686152827713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 389
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6270a6cf2b390a700800000000000000
+      internalID: 549601551487469350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_22
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 392
+        width: 92
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56639833eacfe66c0800000000000000
+      internalID: -4148100381642508699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_23
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 393
+        width: 144
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653245d32321c0f20800000000000000
+      internalID: 3390104626489729878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_24
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 387
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03161af01a2b20840800000000000000
+      internalID: 5188906125505945904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_25
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 388
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0e657a4e723f610800000000000000
+      internalID: 1653709351188619456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_26
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 396
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e208a6c8fb244460800000000000000
+      internalID: 7224948049693901544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 170
+        width: 88
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb6ce16d25278ff0800000000000000
+      internalID: -34017595335349275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_28
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 177
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876bf18bb8d400bc0800000000000000
+      internalID: -3818967221525301640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 166
+        width: 169
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b749e33feffb3b00800000000000000
+      internalID: 809521960876328880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_30
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 172
+        width: 168
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c38beab76e4bc30800000000000000
+      internalID: 4374374556970269748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_31
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 162
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55e3c2e082d0ad30800000000000000
+      internalID: 4440780683589444954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_32
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 172
+        width: 149
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e845f3e601c89390800000000000000
+      internalID: -7811281318335657759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_33
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 177
+        width: 109
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27f7f4f00fbdce10800000000000000
+      internalID: 2219640202194319147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_34
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 177
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a990b88b08d750a70800000000000000
+      internalID: 8792571839316167066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_35
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 0
+        width: 335
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a6567de0fe488b0800000000000000
+      internalID: -5150729226782676322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_36
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 39
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879b0479c4adffdf0800000000000000
+      internalID: -144156640562595464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_37
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 43
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda80eae73ff0a810800000000000000
+      internalID: 1774698868812843741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_38
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 40
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70693ad334572acd0800000000000000
+      internalID: -2548345507480889849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_39
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 39
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91e3948f13cb2fa0800000000000000
+      internalID: -5824347152937918050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_40
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 43
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264e0e4d5f4a3fae0800000000000000
+      internalID: -1516687273748274078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_41
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 39
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c741c294e58d620800000000000000
+      internalID: 2799090836775926911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_42
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 46
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5f9a5e7c0c3aaf0800000000000000
+      internalID: -386253178239584787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plants&Animals_43
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 45
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1b4826bbfe9b300800000000000000
+      internalID: 268509240896041410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plants&Animals_0: -8529299433714730560
+      Plants&Animals_1: 8686404749966820788
+      Plants&Animals_10: 6838042741964630552
+      Plants&Animals_11: -161440906036486887
+      Plants&Animals_12: 8913567681679338661
+      Plants&Animals_13: -5788972542234564265
+      Plants&Animals_14: 1311533298176727582
+      Plants&Animals_15: 350529927199411059
+      Plants&Animals_16: -4406426296554480886
+      Plants&Animals_17: 3594651961639915643
+      Plants&Animals_18: 5118172361099000371
+      Plants&Animals_19: -6977908210969024678
+      Plants&Animals_2: -1590493548501310186
+      Plants&Animals_20: -4006841686152827713
+      Plants&Animals_21: 549601551487469350
+      Plants&Animals_22: -4148100381642508699
+      Plants&Animals_23: 3390104626489729878
+      Plants&Animals_24: 5188906125505945904
+      Plants&Animals_25: 1653709351188619456
+      Plants&Animals_26: 7224948049693901544
+      Plants&Animals_27: -34017595335349275
+      Plants&Animals_28: -3818967221525301640
+      Plants&Animals_29: 809521960876328880
+      Plants&Animals_3: 6853135089386229060
+      Plants&Animals_30: 4374374556970269748
+      Plants&Animals_31: 4440780683589444954
+      Plants&Animals_32: -7811281318335657759
+      Plants&Animals_33: 2219640202194319147
+      Plants&Animals_34: 8792571839316167066
+      Plants&Animals_35: -5150729226782676322
+      Plants&Animals_36: -144156640562595464
+      Plants&Animals_37: 1774698868812843741
+      Plants&Animals_38: -2548345507480889849
+      Plants&Animals_39: -5824347152937918050
+      Plants&Animals_4: 5173282760296306793
+      Plants&Animals_40: -1516687273748274078
+      Plants&Animals_41: 2799090836775926911
+      Plants&Animals_42: -386253178239584787
+      Plants&Animals_43: 268509240896041410
+      Plants&Animals_5: 6441700294611042826
+      Plants&Animals_6: -4201154302667082947
+      Plants&Animals_7: -8595113863131094404
+      Plants&Animals_8: -8565672946545251578
+      Plants&Animals_9: -6238569210803892516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
