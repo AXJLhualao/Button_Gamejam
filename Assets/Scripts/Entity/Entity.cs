@@ -1,82 +1,129 @@
+using System;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
     [SerializeField] protected Animator animator;
-    [SerializeField] protected Transform flip_root;
-    [SerializeField] private Path currentPath;
-    protected StateMachine stateMachine;
+    [SerializeField] protected Path currentPath;
+    [SerializeField] protected TargetFollowing targetFollowing;
+    [Header("动画状态名称")]
+    [SerializeField] protected string patrol_animation = "Patrol";
+    [SerializeField] protected string chase_animation = "Chase";
+    [SerializeField] protected string attack_animation = "Attack";
+    [SerializeField] protected string death_animation = "Death";
+    protected StateMachine stateMachine = new StateMachine();
+    protected IState deathState;
+    protected CombatStats combatStats;
+
     public Path CurrentPath => currentPath;
 
-    /// <summary>
-    /// 初始化通用状态机、动画器和翻转根节点。
-    /// </summary>
-    protected virtual void Awake()
+    protected struct CombatStates
     {
-        stateMachine = new StateMachine();
-
-        if (animator == null)
-        {
-            animator = GetComponentInChildren<Animator>();
-        }
-
-        if (flip_root == null)
-        {
-            flip_root = animator != null ? animator.transform : transform;
-        }
+        public IState Patrol;
+        public IState Chase;
+        public IState Attack;
     }
 
-    /// <summary>
-    /// 每帧驱动当前状态更新。
-    /// </summary>
+    protected virtual void Awake()
+    {
+        combatStats = GetComponent<CombatStats>();
+        animator = GetComponentInChildren<Animator>();
+    }
+
     protected virtual void Update()
     {
         stateMachine?.Update();
     }
 
-    /// <summary>
-    /// 设置实体当前所属路径，用于目标识别时判断是否同路。
-    /// </summary>
+    protected float MoveSpeed => combatStats.MoveSpeed;
+
     public void SetCurrentPath(Path path)
     {
         currentPath = path;
     }
 
-    /// <summary>
-    /// 判断另一个实体是否与当前实体处于同一个路径。
-    /// </summary>
     public bool IsOnSamePath(Entity other)
     {
-        return other != null && currentPath != null && other.CurrentPath == currentPath;
+        return other.CurrentPath == currentPath;
     }
 
-    /// <summary>
-    /// 为状态追加进入时播放动画的行为。
-    /// </summary>
-    protected IState WithAnimation(IState state, string animationStateName)
+    protected CombatStates BuildCombatStates(
+        Action onPathComplete,
+        bool reversePatrol = false,
+        Func<int?> getStartWaypoint = null)
     {
-        return new AnimatedState(state, animationStateName, PlayAnimation);
+        IState patrol = null;
+        IState chase = null;
+        IState attack = null;
+
+        attack = WithAnimation(
+            new AttackState(
+                stateMachine,
+                () => targetFollowing.HasTarget(),
+                () => targetFollowing.IsCloseToTarget(),
+                () => chase),
+            attack_animation,
+            true);
+
+        chase = WithAnimation(
+            new ChaseState(
+                stateMachine,
+                targetFollowing,
+                () => patrol,
+                () => MoveSpeed,
+                () => attack,
+                () => targetFollowing.IsCloseToTarget(),
+                FaceMoveDirection),
+            chase_animation);
+
+        patrol = WithAnimation(
+            new PatrolState(
+                stateMachine,
+                transform,
+                () => currentPath,
+                targetFollowing,
+                () => chase,
+                () => MoveSpeed,
+                onPathComplete,
+                FaceMoveDirection,
+                reversePatrol,
+                getStartWaypoint),
+            patrol_animation);
+
+        return new CombatStates { Patrol = patrol, Chase = chase, Attack = attack };
     }
 
-    /// <summary>
-    /// 播放 Animator Controller 中指定名称的状态。
-    /// </summary>
+    protected virtual void BuildDeathState(float destroyDelay = 1f)
+    {
+        deathState = WithAnimation(
+            new DeathState(this, null, destroyDelay),
+            death_animation);
+    }
+
+    public void EnterDeathState(Action onEnter = null)
+    {
+        onEnter?.Invoke();
+        stateMachine.TransitionTo(deathState);
+    }
+
+    protected IState WithAnimation(IState state, string animationStateName, bool replayWhenFinished = false)
+    {
+        if (string.IsNullOrEmpty(animationStateName))
+            return state;
+
+        return new AnimatedState(state, animationStateName, PlayAnimation, () => animator, replayWhenFinished);
+    }
+
     private void PlayAnimation(string animationStateName)
     {
-        if (animator == null) return;
-
         animator.Play(animationStateName);
     }
 
-    /// <summary>
-    /// 根据水平移动方向翻转显示根节点，默认美术朝向右侧。
-    /// </summary>
     protected void FaceMoveDirection(Vector3 moveDirection)
     {
-        if (flip_root == null || Mathf.Abs(moveDirection.x) < 0.01f) return;
-
-        Vector3 scale = flip_root.localScale;
+        if (Mathf.Abs(moveDirection.x) < 0.01f) return;
+        Vector3 scale = animator.transform.localScale;
         scale.x = Mathf.Abs(scale.x) * Mathf.Sign(moveDirection.x);
-        flip_root.localScale = scale;
+        animator.transform.localScale = scale;
     }
 }

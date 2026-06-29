@@ -79,10 +79,7 @@ public class MoveToPathState : IState
         int startWaypoint = GetStartWaypoint();
         onArrived?.Invoke(targetPath, startWaypoint);
         IState nextState = getNextState?.Invoke();
-        if (nextState != null)
-        {
-            stateMachine.TransitionTo(nextState);
-        }
+        stateMachine.TransitionTo(nextState);
     }
 
     /// <summary>
@@ -99,13 +96,11 @@ public class MoveToPathState : IState
     {
         targetPath = PathRegistry.GetNearestPath(mover.position, out targetPoint, out targetSegmentIndex);
         hasTargetPoint = targetPath != null;
-
         if (!hasTargetPoint && !hasWarnedMissingPath)
         {
             Debug.LogWarning($"{mover.name} could not find a valid Path.");
             hasWarnedMissingPath = true;
         }
-
         return hasTargetPoint;
     }
 
@@ -114,7 +109,7 @@ public class MoveToPathState : IState
     /// </summary>
     private int GetStartWaypoint()
     {
-        if (targetPath == null || targetPath.Waypoints == null || targetPath.Waypoints.Length == 0)
+        if (targetPath.Waypoints == null || targetPath.Waypoints.Length == 0)
         {
             return 0;
         }

@@ -43,29 +43,21 @@ public class ChaseState : IState
 
     public void Update()
     {
-        if (targetFollowing == null) return;
-
         if (!targetFollowing.HasTarget())
         {
+            targetFollowing.ClearTarget();
             IState noTargetState = getNoTargetState?.Invoke();
-            if (noTargetState != null)
-            {
-                stateMachine.TransitionTo(noTargetState);
-            }
-
+            stateMachine.TransitionTo(noTargetState);
             return;
         }
 
         Vector3 moveDirection = targetFollowing.MoveTowardsTarget(getMoveSpeed());
         onMoveDirection?.Invoke(moveDirection);
 
-        if (shouldEnterAttack != null && shouldEnterAttack())
+        if (shouldEnterAttack())
         {
             IState attackState = getAttackState?.Invoke();
-            if (attackState != null)
-            {
-                stateMachine.TransitionTo(attackState);
-            }
+            stateMachine.TransitionTo(attackState);
         }
     }
 

@@ -20,8 +20,6 @@ public static class PathRegistry
     /// </summary>
     public static void Unregister(Path path)
     {
-        if (path == null) return;
-
         paths.Remove(path);
     }
 

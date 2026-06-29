@@ -1,12 +1,15 @@
-// 2026.6.29 --v1 
-// 目标检测组件 —— 使用 Physics2D.OverlapCircleAll 扫描周围目标。
-// 设计：事件驱动而非轮询判断。
-//   - 检测到目标时触发 OnTargetFound 事件（供 TargetFollowing 订阅）
-//   - 每次检测到目标后自动禁用自身（isActive = false），避免重复报告
-// 依赖：需在 Inspector 中指定 target_layer 以过滤目标图层。
-// 关联组件：TargetFollowing（订阅 OnTargetFound 并驱动移动）。
+// <summary>
+// 目标检测组件：在指定范围内检测目标并触发事件。
+// 通过设置检测半径和目标层，可以在Update中持续检测目标。
+// 用法：
+// 1. 将此组件附加到需要检测目标的GameObject上。
+// 2. 设置检测半径和目标层。
+// 3. 订阅OnTargetFound事件以处理检测到的目标。 
+// </summary>
+
 using UnityEngine;
 using System;
+
 public class TargetFinding : MonoBehaviour
 {
     [SerializeField] private bool isActive = true;
@@ -15,23 +18,19 @@ public class TargetFinding : MonoBehaviour
 
     public event Action<Transform> OnTargetFound;
 
-    /// <summary>
-    /// 设置目标检测是否启用。
-    /// </summary>
-    public void set_active(bool new_active) { isActive = new_active; }
+    public void SetActive(bool active)
+    {
+        isActive = active;
+    }
 
-    /// <summary>
-    /// 每帧在启用时尝试扫描目标。
-    /// </summary>
     void Update()
     {
         if (!isActive) return;
         Detect();
     }
-
-    /// <summary>
-    /// 扫描范围内候选目标，并只接受同一路径上的实体。
-    /// </summary>
+    // <summary>
+    // 检测范围内的目标，并触发OnTargetFound事件。
+    // </summary>
     private void Detect()
     {
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, detection_radius, target_layer);
@@ -47,21 +46,30 @@ public class TargetFinding : MonoBehaviour
             break;
         }
     }
-
-    /// <summary>
-    /// 判断候选目标是否是同一路径上的其他实体。
-    /// </summary>
+    // <summary>
+    // 检查是否可以检测到目标。
+    // 1. 自身和目标实体都不为空。
+    // 2. 自身和目标实体不是同一个对象。
+    // 3. 自身和目标实体在同一路径上。
+    // 4. 自身和目标实体不属于同一队伍。
+    // 5. 目标实体的Health组件不存在或未死亡。
+    // </summary>
     private bool CanDetectTarget(Entity selfEntity, Entity targetEntity)
     {
-        if (selfEntity == null || targetEntity == null) return false;
+        if (selfEntity == null || targetEntity == null) return false; // 
         if (selfEntity == targetEntity) return false;
+        if (!selfEntity.IsOnSamePath(targetEntity)) return false;
 
-        return selfEntity.IsOnSamePath(targetEntity);
+        TeamMember selfTeam = selfEntity.GetComponent<TeamMember>();
+        TeamMember targetTeam = targetEntity.GetComponent<TeamMember>();
+        if (selfTeam.Team == targetTeam.Team) return false;
+
+        Health targetHealth = targetEntity.GetComponent<Health>();
+        return targetHealth == null || !targetHealth.IsDead;
     }
-
-    /// <summary>
-    /// 在编辑器中绘制检测范围。
-    /// </summary>
+    // <summary>
+    // 在编辑器中绘制检测范围的Gizmos。
+    // </summary>
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

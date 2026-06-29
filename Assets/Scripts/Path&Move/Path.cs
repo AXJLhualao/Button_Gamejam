@@ -26,10 +26,10 @@ public class Path : MonoBehaviour
     /// <summary>
     /// 根据路径点索引返回对应的世界坐标。
     /// </summary>
-    public Vector3 get_position(int index)
+    public Vector3 GetPosition(int index)
     {
         return Waypoints[index].transform.position;
-    }//获得下一个目标点方法
+    }
 
     /// <summary>
     /// 返回路径线段上距离指定世界坐标最近的点。
@@ -54,12 +54,6 @@ public class Path : MonoBehaviour
     public int GetClosestSegmentIndex(Vector3 position, out Vector3 closestPoint)
     {
         closestPoint = transform.position;
-
-        if (Waypoints == null || Waypoints.Length == 0)
-        {
-            return -1;
-        }
-
         if (Waypoints.Length == 1)
         {
             closestPoint = Waypoints[0].transform.position;

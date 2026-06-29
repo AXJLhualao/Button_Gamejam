@@ -22,6 +22,7 @@ public class PatrolState : IState
 
     private Vector3 targetPosition;
     private int currentWaypoint;
+    private bool hasTargetWaypoint;
 
     /// <summary>
     /// 使用固定 Path 创建巡逻状态。
@@ -86,10 +87,14 @@ public class PatrolState : IState
         Path path = GetPath();
         if (!HasValidPath(path)) return;
 
-        int defaultWaypoint = reverse ? path.Waypoints.Length - 1 : 0;
-        currentWaypoint = Mathf.Clamp(getStartWaypoint?.Invoke() ?? defaultWaypoint, 0, path.Waypoints.Length - 1);
+        if (!hasTargetWaypoint)
+        {
+            int defaultWaypoint = reverse ? path.Waypoints.Length - 1 : 0;
+            currentWaypoint = Mathf.Clamp(getStartWaypoint?.Invoke() ?? defaultWaypoint, 0, path.Waypoints.Length - 1);
+            hasTargetWaypoint = true;
+        }
 
-        targetPosition = path.get_position(currentWaypoint);
+        targetPosition = path.GetPosition(currentWaypoint);
     }
 
     /// <summary>
@@ -97,7 +102,7 @@ public class PatrolState : IState
     /// </summary>
     public void Update()
     {
-        if (targetFollowing != null && targetFollowing.HasTarget())
+        if (targetFollowing.HasTarget())
         {
             stateMachine.TransitionTo(getChaseState());
             return;
@@ -117,10 +122,11 @@ public class PatrolState : IState
         if (nextWaypoint >= 0 && nextWaypoint < path.Waypoints.Length)
         {
             currentWaypoint = nextWaypoint;
-            targetPosition = path.get_position(currentWaypoint);
+            targetPosition = path.GetPosition(currentWaypoint);
             return;
         }
 
+        hasTargetWaypoint = false;
         onPathComplete?.Invoke();
     }
 
@@ -144,6 +150,6 @@ public class PatrolState : IState
     /// </summary>
     private bool HasValidPath(Path path)
     {
-        return path != null && path.Waypoints != null && path.Waypoints.Length > 0;
+        return path.Waypoints.Length > 0;
     }
 }
