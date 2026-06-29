@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 41ef5e6b640ddeb4caaf97f2d6b6d2c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8033694830539921281
+    second: golbin-ezgif.com-gif-to-sprite-converter_0
+  - first:
+      213: 3420656681996988204
+    second: golbin-ezgif.com-gif-to-sprite-converter_1
+  - first:
+      213: 4297177378126994667
+    second: golbin-ezgif.com-gif-to-sprite-converter_2
+  - first:
+      213: 586974494239347427
+    second: golbin-ezgif.com-gif-to-sprite-converter_3
+  - first:
+      213: 161018206510153586
+    second: golbin-ezgif.com-gif-to-sprite-converter_4
+  - first:
+      213: 6434161091110450549
+    second: golbin-ezgif.com-gif-to-sprite-converter_5
+  - first:
+      213: -4925297579249716863
+    second: golbin-ezgif.com-gif-to-sprite-converter_6
+  - first:
+      213: 4160859573180146628
+    second: golbin-ezgif.com-gif-to-sprite-converter_7
+  - first:
+      213: 8373134351713365529
+    second: golbin-ezgif.com-gif-to-sprite-converter_8
+  - first:
+      213: -3940863428463179644
+    second: golbin-ezgif.com-gif-to-sprite-converter_9
+  - first:
+      213: -7972194944771175513
+    second: golbin-ezgif.com-gif-to-sprite-converter_10
+  - first:
+      213: 4020967706408414385
+    second: golbin-ezgif.com-gif-to-sprite-converter_11
+  - first:
+      213: 6084022411216485449
+    second: golbin-ezgif.com-gif-to-sprite-converter_12
+  - first:
+      213: -2510949254637754885
+    second: golbin-ezgif.com-gif-to-sprite-converter_13
+  - first:
+      213: -2297605528976410689
+    second: golbin-ezgif.com-gif-to-sprite-converter_14
+  - first:
+      213: -149947632250569135
+    second: golbin-ezgif.com-gif-to-sprite-converter_15
+  - first:
+      213: 1050575644091576210
+    second: golbin-ezgif.com-gif-to-sprite-converter_16
+  - first:
+      213: -5351667749985104642
+    second: golbin-ezgif.com-gif-to-sprite-converter_17
+  - first:
+      213: 2891010138639332147
+    second: golbin-ezgif.com-gif-to-sprite-converter_18
+  - first:
+      213: 2787207473894065131
+    second: golbin-ezgif.com-gif-to-sprite-converter_19
+  - first:
+      213: -3395976319796175647
+    second: golbin-ezgif.com-gif-to-sprite-converter_20
+  - first:
+      213: 3601646103897961558
+    second: golbin-ezgif.com-gif-to-sprite-converter_21
+  - first:
+      213: 5911428605326450108
+    second: golbin-ezgif.com-gif-to-sprite-converter_22
+  - first:
+      213: -2415096484124206005
+    second: golbin-ezgif.com-gif-to-sprite-converter_23
+  - first:
+      213: 515480571522381779
+    second: golbin-ezgif.com-gif-to-sprite-converter_24
+  - first:
+      213: -2039908493316582045
+    second: golbin-ezgif.com-gif-to-sprite-converter_25
+  - first:
+      213: 6830153716574158905
+    second: golbin-ezgif.com-gif-to-sprite-converter_26
+  - first:
+      213: 55209731754431765
+    second: golbin-ezgif.com-gif-to-sprite-converter_27
+  - first:
+      213: 204221847670053411
+    second: golbin-ezgif.com-gif-to-sprite-converter_28
+  - first:
+      213: 5126095257971763935
+    second: golbin-ezgif.com-gif-to-sprite-converter_29
+  - first:
+      213: -8155808233379826623
+    second: golbin-ezgif.com-gif-to-sprite-converter_30
+  - first:
+      213: 8872646420078805826
+    second: golbin-ezgif.com-gif-to-sprite-converter_31
+  - first:
+      213: -9203499905423448203
+    second: golbin-ezgif.com-gif-to-sprite-converter_32
+  - first:
+      213: 1622640332948316518
+    second: golbin-ezgif.com-gif-to-sprite-converter_33
+  - first:
+      213: -3123319130141422298
+    second: golbin-ezgif.com-gif-to-sprite-converter_34
+  - first:
+      213: 7582932137528300076
+    second: golbin-ezgif.com-gif-to-sprite-converter_35
+  - first:
+      213: 8929936319765858027
+    second: golbin-ezgif.com-gif-to-sprite-converter_36
+  - first:
+      213: -3450377064005365299
+    second: golbin-ezgif.com-gif-to-sprite-converter_37
+  - first:
+      213: -1911732330053333653
+    second: golbin-ezgif.com-gif-to-sprite-converter_38
+  - first:
+      213: -7333013449617679889
+    second: golbin-ezgif.com-gif-to-sprite-converter_39
+  - first:
+      213: 2707945162317969789
+    second: golbin-ezgif.com-gif-to-sprite-converter_40
+  - first:
+      213: -2873072534337322873
+    second: golbin-ezgif.com-gif-to-sprite-converter_41
+  - first:
+      213: -9015298768993883830
+    second: golbin-ezgif.com-gif-to-sprite-converter_42
+  - first:
+      213: 4866341322238087336
+    second: golbin-ezgif.com-gif-to-sprite-converter_43
+  - first:
+      213: 1330776998020789541
+    second: golbin-ezgif.com-gif-to-sprite-converter_44
+  - first:
+      213: 6256522588681665453
+    second: golbin-ezgif.com-gif-to-sprite-converter_45
+  - first:
+      213: -6690677668803203080
+    second: golbin-ezgif.com-gif-to-sprite-converter_46
+  - first:
+      213: -4178165260078838938
+    second: golbin-ezgif.com-gif-to-sprite-converter_47
+  - first:
+      213: 5521982537712085094
+    second: golbin-ezgif.com-gif-to-sprite-converter_48
+  - first:
+      213: -3016081429083613408
+    second: golbin-ezgif.com-gif-to-sprite-converter_49
+  - first:
+      213: -7952569679445583392
+    second: golbin-ezgif.com-gif-to-sprite-converter_50
+  - first:
+      213: -2584087664211241328
+    second: golbin-ezgif.com-gif-to-sprite-converter_51
+  - first:
+      213: -5890047045790893491
+    second: golbin-ezgif.com-gif-to-sprite-converter_52
+  - first:
+      213: -5933499994723089177
+    second: golbin-ezgif.com-gif-to-sprite-converter_53
+  - first:
+      213: -6115687335674389943
+    second: golbin-ezgif.com-gif-to-sprite-converter_54
+  - first:
+      213: -3170491447433501151
+    second: golbin-ezgif.com-gif-to-sprite-converter_55
+  - first:
+      213: -4930989818090874528
+    second: golbin-ezgif.com-gif-to-sprite-converter_56
+  - first:
+      213: 5485192491349744684
+    second: golbin-ezgif.com-gif-to-sprite-converter_57
+  - first:
+      213: -7311818502402552463
+    second: golbin-ezgif.com-gif-to-sprite-converter_58
+  - first:
+      213: -7158598748222482386
+    second: golbin-ezgif.com-gif-to-sprite-converter_59
+  - first:
+      213: -7923127330689788756
+    second: golbin-ezgif.com-gif-to-sprite-converter_60
+  - first:
+      213: -8821307710490163308
+    second: golbin-ezgif.com-gif-to-sprite-converter_61
+  - first:
+      213: -4686007684275022874
+    second: golbin-ezgif.com-gif-to-sprite-converter_62
+  - first:
+      213: 5127572239803375827
+    second: golbin-ezgif.com-gif-to-sprite-converter_63
+  - first:
+      213: 7605667674433723391
+    second: golbin-ezgif.com-gif-to-sprite-converter_64
+  - first:
+      213: 4095747931107430425
+    second: golbin-ezgif.com-gif-to-sprite-converter_65
+  - first:
+      213: -6579873220259142033
+    second: golbin-ezgif.com-gif-to-sprite-converter_66
+  - first:
+      213: 4822659525256995620
+    second: golbin-ezgif.com-gif-to-sprite-converter_67
+  - first:
+      213: -5195505280703804921
+    second: golbin-ezgif.com-gif-to-sprite-converter_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78a6cfad15928090800000000000000
+      internalID: -8033694830539921281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_1
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2420
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f2ffcf02d987f20800000000000000
+      internalID: 3420656681996988204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_2
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2420
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec9a18de04a2ab30800000000000000
+      internalID: 4297177378126994667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_3
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 2420
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2d95d413a552800800000000000000
+      internalID: 586974494239347427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_4
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2420
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f7869a43d0c3200800000000000000
+      internalID: 161018206510153586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57537473c6bba4950800000000000000
+      internalID: 6434161091110450549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1210
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181babf62f3d5abb0800000000000000
+      internalID: -4925297579249716863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_7
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1210
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3afa39cb75eb930800000000000000
+      internalID: 4160859573180146628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_8
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 1210
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eee728459533470800000000000000
+      internalID: 8373134351713365529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_9
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1210
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488cf16679d3f49c0800000000000000
+      internalID: -3940863428463179644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abcfbcafe21d5190800000000000000
+      internalID: -7972194944771175513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golbin-ezgif.com-gif-to-sprite-converter_11
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 1300
+        height: 1210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc6ac133d85dc730800000000000000
+      internalID: 4020967706408414385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bc6c8d24fe4bb0c408b2e3ab83d6144c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      golbin-ezgif.com-gif-to-sprite-converter_0: -8033694830539921281
+      golbin-ezgif.com-gif-to-sprite-converter_1: 3420656681996988204
+      golbin-ezgif.com-gif-to-sprite-converter_10: -7972194944771175513
+      golbin-ezgif.com-gif-to-sprite-converter_11: 4020967706408414385
+      golbin-ezgif.com-gif-to-sprite-converter_2: 4297177378126994667
+      golbin-ezgif.com-gif-to-sprite-converter_3: 586974494239347427
+      golbin-ezgif.com-gif-to-sprite-converter_4: 161018206510153586
+      golbin-ezgif.com-gif-to-sprite-converter_5: 6434161091110450549
+      golbin-ezgif.com-gif-to-sprite-converter_6: -4925297579249716863
+      golbin-ezgif.com-gif-to-sprite-converter_7: 4160859573180146628
+      golbin-ezgif.com-gif-to-sprite-converter_8: 8373134351713365529
+      golbin-ezgif.com-gif-to-sprite-converter_9: -3940863428463179644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

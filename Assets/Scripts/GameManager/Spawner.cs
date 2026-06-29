@@ -3,8 +3,9 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject Prefab;
+    [SerializeField] private Transform spawnPoint;
     private float spawn_timer;
-    private float spawn_interval = 1f;
+    [SerializeField] private float spawn_interval = 1f;
     void Update()
     {
         spawn_timer -= Time.deltaTime;
@@ -17,6 +18,6 @@ public class Spawner : MonoBehaviour
     private void SpawnEnemy()
     {
         GameObject spawnedObject = GameObject.Instantiate(Prefab);
-        spawnedObject.transform.position = transform.position;
+        spawnedObject.transform.position = spawnPoint.position;
     }
 }

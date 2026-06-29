@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ally
+  - Emeny
   - 
   - 
   - 
@@ -44,8 +44,11 @@ TagManager:
   - name: Unit
     uniqueID: 2380254017
     locked: 0
-  - name: Player
+  - name: Ally
     uniqueID: 1755090511
+    locked: 0
+  - name: Enemy
+    uniqueID: 3797843501
     locked: 0
   m_RenderingLayers:
   - Default
